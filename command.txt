@@ -7,3 +7,9 @@ git commit -a -m "skipped staging area and fixed" // direct commit
 git rm wast.html 	//delete this file from woking directory and stage area
 git rm -cached waste.html	//only remove from stage area
 git status -s		//small status
+
+
+git branch	//list all the branch
+git brnach newbranch	//create a new branch
+git checkout newbranch	// make newbranch as active
+git merge newbranch	//merge the newbranch to master
