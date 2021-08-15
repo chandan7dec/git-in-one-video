@@ -1,0 +1,9 @@
+git int			//intilize the git
+git checkout -f 	// get the latest code in working area
+git status		//
+git diff		// difference of file  working tree with staggig are
+git diff --stage	// diffrence of file with stage area wit last commit
+git commit -a -m "skipped staging area and fixed" // direct commit
+git rm wast.html 	//delete this file from woking directory and stage area
+git rm -cached waste.html	//only remove from stage area
+git status -s		//small status
